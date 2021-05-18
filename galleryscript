@@ -1,0 +1,42 @@
+push
+move
+250 250 0
+rotate
+y 20
+rotate
+x -60
+box
+-200 100 0 400 250 25
+push
+move
+200 30 0
+box
+-10 0 0 10 75 10
+pop
+push
+move
+-200 30 0
+box
+10 50 0 10 75 10
+pop
+push
+move
+-150 20 0
+sphere
+0 0 0 10
+pop
+pop
+push
+bezier
+83 475 132 507 151 443 107 438
+bezier
+107 438 151 443 143 372 89 391
+line
+350 450 0 375 475 0
+line
+375 475 0 375 400 0
+line
+350 400 0 400 400 0
+display
+save
+pong.png
